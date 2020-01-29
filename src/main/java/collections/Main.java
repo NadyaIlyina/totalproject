@@ -32,7 +32,7 @@ public class Main {
         line.add("{([])}");
         System.out.println("Task 7: " + task7.checkLine(line));
 
-        List<String> lines = Arrays.asList(SONNET.split("\n "));
+        List<String> lines = Arrays.asList(SONNET.split("\n"));
         System.out.println(lines);
 
         Collections.sort(lines, task4.sortSonnet());
